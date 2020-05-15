@@ -1,0 +1,7 @@
+{
+  "name": "CSVExporter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
