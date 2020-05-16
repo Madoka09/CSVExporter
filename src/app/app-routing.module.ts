@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'favoritos',
+    loadChildren: () => import('./favoritos/favoritos.module').then( m => m.FavoritosPageModule)
+  },
+  {
+    path: 'crear-plantilla',
+    loadChildren: () => import('./crear-plantilla/crear-plantilla.module').then( m => m.CrearPlantillaPageModule)
+  },
 ];
 
 @NgModule({

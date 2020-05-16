@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CSVExporter</string>
+    <string name="title_activity_main">CSVExporter</string>
+    <string name="package_name">pakks.csvex.succ</string>
+    <string name="custom_url_scheme">pakks.csvex.succ</string>
+</resources>
